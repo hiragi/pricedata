@@ -12,7 +12,7 @@ You can watch bullions prices like this::
     Platinum    1424.00
     Palladium   652.00
 
-    $python prcedata -g
+    $python prcedata -s
     silver    29.35
 
 
