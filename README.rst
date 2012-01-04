@@ -3,6 +3,17 @@ Overview
 This script displays live current Gold, Silver, Platinum, Palladium prices.
 Scraped from `here <http://www.monex.com/liveprices>`_
 
+You can watch bullions prices like this.::
+    $python pricedata
+
+    Gold        1614.00
+    Silver      29.35
+    Platinum    1424.00
+    Palladium   652.00
+
+    $python prcedata -g
+    silver    29.35
+
 
 Disclaimer
 ==========
