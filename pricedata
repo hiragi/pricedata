@@ -34,7 +34,7 @@ def parse_options():
 	Default - display all price data
 	"""
 	usage = "%prog [options]"
-	parser = OptionParser()
+	parser = OptionParser(usage=usage)
 	parser.add_option("-g", "--gold", dest="gold", action="store_true", help="display gold data")
 	parser.add_option("-s", "--silver", dest="silver", action="store_true", help="display silver data")
 	parser.add_option("-p", "--platinum", dest="platinum", action="store_true", help="display platinum data")
